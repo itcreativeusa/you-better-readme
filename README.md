@@ -32,7 +32,7 @@ Follow the prompt questions and enter information about application repository.
 The file readme.md will be generated in a root folder
 
  Simply add text to the text field and press save. after reloading the page, the text will be available.
-Screenshot located in `assets/images` folder
+Screenshot located in `utils/img` folder
 
 ![you-better-readme](utils/img/screenshot.png)
 
