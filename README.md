@@ -19,8 +19,8 @@ It's a command-line node.js application that accepts user input for generating r
 
 ## Installation
 
-N/A
-
+This applicartion must be installed on computer. Open your computer’s command prompt (Windows) or terminal (macOS/Linux) and run the application
+ 
 ## Requirements
 
 No special requirements
