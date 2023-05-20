@@ -39,6 +39,8 @@ Screenshot located in `utils/img` folder
 
 ![you-better-readme](utils/img/screenshot.png)
 
+Sample of the readme file `sample_README.md` located in a root folder. 
+
 ## Credits
  
  Starter code in files provided by Berkeley Bootcamp for studying purposes.
