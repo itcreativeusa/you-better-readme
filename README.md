@@ -5,6 +5,9 @@
 Github link
 https://github.com/itcreativeusa/you-better-readme
 
+Youtube video guide
+https://youtu.be/-bySQ48sPB8
+
 This you-better-readme was created as a bootcamp everyweek student challege.
 It's a command-line node.js application that accepts user input for generating readme file with the title of project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
