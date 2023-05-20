@@ -3,16 +3,22 @@ const { error } = require("console");
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  /*switch (license) {
+    case license == "MIT": return "The MIT License";
+    case "ISC": return "ISC License (ISC)";
+    case "UnlicenseNU": return "The Unlicense";
+    case "GNU GPL": return "GNU GPL v3";
+  }*/
   if (!license) {
     return "";
   } else if (license == "MIT") {
-    return (license = "The MIT License");
+    return "The MIT License";
   } else if (license == "ISC") {
-    return (license = "ISC License (ISC)");
+    return "ISC License (ISC)";
   } else if (license == "UnlicenseNU") {
-    return (license = "The Unlicense");
+    return "The Unlicense";
   } else if (license == "GNU GPL") {
-    return (license = "GNU GPL v3");
+    return "GNU GPL v3";
   } else {
     return license;
   }
@@ -37,6 +43,17 @@ function renderLicenseBadge(license) {
   } else "";
 }
 
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+const renderTableOfContents = `- [Installation](#installation)
+- [Usage](#usage)
+- [Lisence](#lisence)
+- [Contribute](#contribute)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
+`;
+
 // Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
@@ -51,7 +68,6 @@ function renderLicenseLink(license) {
   } else "";
 }
 
-
 //Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
@@ -61,7 +77,7 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 ## Table of Content
-${data.tableOfContents}
+${renderTableOfContents}
 ## Installation
 ${data.installation}
 ## Usage

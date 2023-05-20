@@ -15,11 +15,11 @@ const questions = [
     name: "description",
     message: "Description",
   },
-  {
+  /*{
     type: "input",
     name: "tableOfContents",
     message: "Table of Content",
-  },
+  },*/
 
   {
     type: "input",
