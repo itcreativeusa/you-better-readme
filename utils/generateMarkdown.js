@@ -3,12 +3,6 @@ const { error } = require("console");
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  /*switch (license) {
-    case license == "MIT": return "The MIT License";
-    case "ISC": return "ISC License (ISC)";
-    case "UnlicenseNU": return "The Unlicense";
-    case "GNU GPL": return "GNU GPL v3";
-  }*/
   if (!license) {
     return "";
   } else if (license == "MIT") {
@@ -43,7 +37,7 @@ function renderLicenseBadge(license) {
   } else "";
 }
 
-// TODO: Create a function that returns the license section of README
+//Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderTableOfContents = `- [Installation](#installation)
 - [Usage](#usage)
