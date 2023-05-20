@@ -34,12 +34,13 @@ Run node index.js in terminal.
 Follow the prompt questions and enter information about application repository.
 The file readme.md will be generated in a root folder
 
- Simply add text to the text field and press save. after reloading the page, the text will be available.
+Simply add text to the text field and press save. after reloading the page, the text will be available.
+ 
+Sample of the readme file `sample_README.md` located in a root folder. 
+ 
 Screenshot located in `utils/img` folder
 
 ![you-better-readme](utils/img/screenshot.png)
-
-Sample of the readme file `sample_README.md` located in a root folder. 
 
 ## Credits
  
